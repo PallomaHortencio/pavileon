@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Pavileon</title>
+
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top p-3">
+    <div class="container-fluid">
+      <div class="col-lg-1">
+        <img src="img/logo.png" alt="Logo Pavileon" class="logoMenu">
+      </div>
+      <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-secondary"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#inicio">INÍCIO</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#somos">NÓS SOMOS</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#games">MINIGAMES</a>
+          </li>
+          <!-- <li class="nav-item ">
+            <a class="nav-link text-white" href="#">Noticias</a>
+          </li> -->
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#divirta">DIVIRTA-SE</a>
+          </li>
+        </ul>
+        <a href="https://world.pavileon.io/lts/" class="btn p-2">ENTRE AGORA</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Video  -->
+  <div id="inicio" class="position-relative overflow-hidden overlay">
+    <video class="object-fit-cover bg-video" autoplay loop muted>
+      <source src="video/video.mp4" type="video/mp4">
+    </video>
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+      <img src="img/logo_pavileon.png" alt="Logo Pavileon" class="logoPavileonVideo">
+      <a href="https://world.pavileon.io/lts/" class="btn btnVideo p-3">ENTRE AGORA</a>
+    </div>
+  </div>
+  <!-- Fim video -->
+
+  <!-- Nos Somos -->
+  <div id="somos" class="container">
+    <div class="row">
+      <div class="col-md-6 text-center nosSomos">
+        <h2 class="featurette-heading lh-1">NÓS SOMOS </h2>
+        <img src="img/logo_pavileon.png" alt="Logo Pavileon" class="logoNosSomos">
+        <p class="lead p-1">Pavileon é o lugar ideal para celebrar novas experiências, um refúgio para desfrutar com amigos e aproveitar o melhor do entretenimento. Crie seu próprio avatar usando toda a sua criatividade e ousadia nos looks para aproveitar tudo que o metaverso tem a oferecer. Venha se divertir no Pavileon e desfrute de uma experiência única e inesquecível. Este é o lugar onde a criatividade e a diversão se encontram! </p>
+        <a href="https://world.pavileon.io/lts/" class="btn p-3">ENTRE AGORA</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <video class="dorival" autoplay loop muted>
+          <source src="video/dorival.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!--  NOTICIAS
+   <section class="d-flex justify-content-center noticiaFundo">
+    <div class="row cards-container text-center">
+      <h3 class="p-5">NA MÍDIA!</h3>
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+        <div class="h-100">
+          <div class="card h-100 bg-dark">
+            <img src="img/game.jpg" class="card-img-top" alt="Imagem da notícia">
+            <div class="card-body text-white">
+              <h5 class="card-title">Notícia 1</h5>
+              <p class="card-text">Descrição da notícia 1</p>
+              <a href="#" class="btn">Leia mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+        <div class="h-100">
+          <div class="card h-100 bg-dark">
+            <img src="img/jogo.jpg" class="card-img-top" alt="Imagem da notícia">
+            <div class="card-body  text-white">
+              <h5 class="card-title">Notícia 2</h5>
+              <p class="card-text">Descrição da notícia 2</p>
+              <a href="#" class="btn">Leia mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+        <div class="h-100">
+          <div class="card h-100 bg-dark">
+            <img src="img/play1.jpg" class="card-img-top" alt="Imagem da notícia">
+            <div class="card-body  text-white">
+              <h5 class="card-title">Notícia 3</h5>
+              <p class="card-text">Descrição da notícia 3</p>
+              <a href="#" class="btn">Leia mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- MiniGames -->
+  <div id="games" class="cta-section image-text" style="background-image: url(img/arcade.jpg); background-size: cover; background-position: center;">
+    <div class="container">
+      <div class="row">
+        <div class="text-center p-4">
+          <h5 class="display-3 mt-4 mb-3 text-white fw-bold p-2">MINIGAMES</h5>
+          <p class="lead text-white px-lg-8 mb-6 p-2">Além de shows e desfiles, você pode se divertir com uma variedade de minigames incríveis! Os minigames do Pavileon são perfeitos para quem busca diversão e desafios emocionantes. Com opções para todos os gostos, você vai descobrir seu minigame favorito! Junte-se aos seus amigos e se divirtam juntos, explorando todos os cantos do Pavileon. Aqui, a diversão nunca para, e sempre há algo novo e emocionante para descobrir.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Divirta-se -->
+  <div id="divirta" class="container espacamento">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <img src="./img/centro_pavileon.png" alt="Pavileon Centro" class="img-responsive">
+      </div>
+      <div class="col-md-6 text-center py-5">
+        <h5 class="display-3 mt-4 mb-3 fw-bold p-2">DIVIRTA-SE!</h5>
+        <p class="lead p-1">Curta as melhores músicas e explore nosso e-commerce. Aqui, você encontrará um mundo de opções para personalizar seu avatar e deixá-lo ainda mais incrível! Não perca a chance de conferir todas as opções em nossa loja virtual e personalize seu avatar como quiser, e vire um ícone fashion do Pavileon. Junte-se a nós e prepare-se para uma experiência incrível!</p>
+        <a href="https://world.pavileon.io/lts/" class="btn p-3">ENTRE AGORA</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="bg-dark">
+    <div class="container text-white">
+      <footer class="py-5">
+        <div class="row">
+
+          <div class="col mb-3">
+            <a href="#inicio" class="text-decoration-none">
+              <img src="img//logo-branca.png" alt="Logo Pavileon" class="logoFooter">
+            </a>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Menu</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2 "><a href="#inicio" class="nav-link p-0 text-white">Início</a></li>
+              <li class="nav-item mb-2"><a href="#somos" class="nav-link p-0 text-white">Nós Somos</a></li>
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Noticias</a></li> -->
+              <li class="nav-item mb-2"><a href="#games" class="nav-link p-0 text-white">MiniGames</a></li>
+              <li class="nav-item mb-2"><a href="#divirta" class="nav-link p-0 text-white">Divirta-se</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Se Inscreva!</h5>
+              <p>Entre no mundo do metaverso.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <a href="https://world.pavileon.io/lts/" class="btn btn_inscricao">Inscreva-se</a>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2023 por Iproduce. Todos os direitos reservados</p>
+
+          <ul class="list-unstyled d-flex">
+            <li>
+              <a href="https://www.instagram.com/pavileon.io/" target="_blank">
+                <i class="bi bi-instagram ms-3 text-white"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.tiktok.com/@pavileon.io/" target="_blank">
+                <i class="bi bi-tiktok ms-3 text-white"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- Fim Footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+</body>
+
+</html>
